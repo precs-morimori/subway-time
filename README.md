@@ -25,7 +25,7 @@ return [
 // デフォルト(引数無し)では直近最大10件表示
 php get_time_subway.php
 
-// 直近最大10件表示
+// 直近最大8件表示
 php get_time_subway.php 8
 ```
 
@@ -44,5 +44,9 @@ source ~/.bashrc
 
 ### 実行
 ```
+// デフォルト(引数無し)では直近最大10件表示
+yushima
+
+// 直近最大8件表示
 yushima 8
 ```
