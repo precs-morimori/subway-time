@@ -24,10 +24,10 @@ return [
 ## 実行
 ```
 // デフォルト(引数無し)では直近最大10件表示
-php get_time_subway.php
+php get_subway_time.php
 
 // 直近最大8件表示
-php get_time_subway.php 8
+php get_subway_time.php 8
 ```
 
 ## alias設定
@@ -35,7 +35,7 @@ php get_time_subway.php 8
 ### 設定例
 ```
 # 例
-alias yushima='/bin/php /home/●●/my_script/subway-time/get_time_subway.php'
+alias yushima='/bin/php /home/●●/my_script/subway-time/get_subway_time.php'
 ```
 
 ### 読み込み
