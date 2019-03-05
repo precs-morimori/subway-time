@@ -1,15 +1,4 @@
 <?php
-// 設定手順
-// list.php に時刻を定義
-// 
-// ~/.bashrc に alias を追加(yushimaのyu)
-// alias yu='/bin/php /home/isao_morinaga/my_script/subway-time/get_time_subway.php'
-// 読み込み
-// source ~/.bashrc
-//
-// 実行例(8件表示)
-// yu 8
-
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
