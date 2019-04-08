@@ -43,19 +43,10 @@ php get_subway_time.php 8
 ### 設定例
 ```
 # 例(1秒ごとに更新させるためにwatchコマンドで指定)
-alias yushima='watch -n 1 "/bin/php /opt/morimori/subway-time/get_subway_time.php"'
+alias yushima='watch -n 1 "php /opt/morimori/subway-time/get_subway_time.php"'
 ```
 
 ### 読み込み
 ```
 source ~/.bashrc
-```
-
-### 実行
-```
-// デフォルト(引数無し)では直近最大10件表示
-yushima
-
-// 直近最大8件表示
-yushima 8
 ```
