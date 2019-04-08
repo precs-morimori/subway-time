@@ -43,7 +43,7 @@ php get_subway_time.php 8
 ### 設定例
 ```
 # 例(1秒ごとに更新させるためにwatchコマンドで指定)
-alias yushima='watch -n 1 "php /opt/morimori/subway-time/get_subway_time.php"'
+alias yushima='watch -n 1 "php /インストールパス/get_subway_time.php"'
 ```
 
 ### 読み込み
